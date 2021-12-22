@@ -1,5 +1,7 @@
 package hiber.model;
 
+
+
 import javax.persistence.*;
 
 @Entity
@@ -27,7 +29,7 @@ public class Car {
     public Car() {
     }
 
-    public Car(Long idCar, String model, int series) {
+    public Car(String model, int series) {
         this.model = model;
         this.series = series;
     }
